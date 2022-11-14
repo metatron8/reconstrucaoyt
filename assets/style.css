@@ -1,0 +1,228 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    padding: 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+p{
+    color: white;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+   background-color: #0F0F0F;
+    height: 8vh;
+}
+
+
+.flex-header--2{
+    display: flex;
+    width: 45vw;
+    align-items: center;
+}
+
+.search{
+    width: 85%;
+    height: 70%;
+    border-radius: 30px 0px 0px 30px;
+    padding: 10px;
+    border: none;
+}
+
+
+ #search{
+    justify-content: center;
+    width: 8%;
+    display: flex;
+    font-size: 1.8rem;
+    padding: 9px;
+    border-radius: 0px 30px 30px 0px;;
+    background-color: #222222;
+    color: white;
+}
+
+input:focus{
+    outline: none;
+
+}
+
+.flex-header{
+    
+    display: flex;
+    flex: 1;
+  
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.flex-header--1{
+    display: flex;
+    flex: 1;
+  
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+
+.flex-header--1 span{
+    
+    font-size: 1.5rem;
+  
+
+    padding: 7px;
+    border-radius: 50%; 
+   color: rgb(219, 216, 216);
+   
+    
+}
+
+.flex-header--1 span:hover{
+    background-color: #222222;
+}
+
+
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    width: 50%;
+  
+    height: 100%;
+
+
+}
+
+.icone p{
+    color: white;
+    font-size: 1.2rem;
+    font-family:sans-serif;
+}
+
+.icone a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.flex-header span{    
+    font-size: 1.5rem;
+  
+    padding: 7px;
+    border-radius: 50%; 
+   color: rgb(219, 216, 216);
+   
+    
+}
+
+.flex-header span:hover{
+    background-color: #222222;
+}
+
+
+
+/* .itens{
+    display: flex;
+    border: 1px solid black;
+}*/
+
+
+
+/*.nav--header span{
+    font-size: 1.5rem;
+    color: rgb(219, 216, 216);
+    padding: 6px;
+
+    
+   
+    border-radius: 50%;
+}
+
+.nav--header span:hover{
+background-color: #222222;
+}
+*/
+.itens--header{
+  
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+
+.container--nav{
+    display: flex;
+    height: 100vh;
+  
+    background-color: black;
+    border: 1px solid black ;
+}
+
+.aside{
+   border: 1px solid white;
+   width: 16%;
+
+   display: flex;
+   flex-direction: column;
+   margin-top: 0pX; 
+}
+
+
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    height:2em;
+    text-decoration: none;
+
+
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+
+    border-radius: 10px;
+}
+
+.navigation span{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 10px;
+}
+
+.navigation a{
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    align-items:center;
+    gap:20px;
+    color: white;
+}
+
+.navigation:hover{
+    background-color: #222222;
+}
+
+.navigation p{
+    display: flex;
+}
